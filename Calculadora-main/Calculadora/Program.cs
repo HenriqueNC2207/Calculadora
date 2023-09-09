@@ -22,6 +22,7 @@ namespace Calculadora
             {
                 Operacoes operacao = filaOperacoes.Peek();
                 calculadora.calcular(operacao);
+                filaOperacoes.Dequeue();
                 Console.WriteLine("{0} {1} {2} = {3}", operacao.valorA,operacao.operador,operacao.valorB, operacao.resultado);
             }
 
