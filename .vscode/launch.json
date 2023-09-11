@@ -12,7 +12,7 @@
             "program": "${workspaceFolder}/Calculadora-main/Calculadora/bin/Debug/net7.0/Calculadora.dll",
             "args": [],
             "cwd": "${workspaceFolder}/Calculadora-main/Calculadora",
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
