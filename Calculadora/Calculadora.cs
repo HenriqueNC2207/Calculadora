@@ -16,21 +16,25 @@ namespace Calculadora
             }
             return operacao;
         }
-        public long soma(Operacoes operacao)
+        public decimal soma(Operacoes operacao)
         {
             return operacao.valorA + operacao.valorB;
         }
-        public long subtracao(Operacoes operacao)
+        public decimal subtracao(Operacoes operacao)
         {
             return operacao.valorA - operacao.valorB;
         }
-        public long multiplicacao(Operacoes operacao)
+        public decimal multiplicacao(Operacoes operacao)
         {
             return operacao.valorA * operacao.valorB;
         }
         //Adicionado função de divisão
-        public long divisao(Operacoes operacao)
+        public decimal divisao(Operacoes operacao)
         {
+            if(operacao.valorB == 0){
+                Console.WriteLine("Divisão por zero não é permitida");
+                Environment.Exit(1);
+            }
             return operacao.valorA / operacao.valorB;
         }
        
