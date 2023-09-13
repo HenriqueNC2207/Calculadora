@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <!-- Alterado para 7.0, versão instalada no setup de desenvolvimento -->
+    <TargetFramework>net7.0</TargetFramework> 
+  </PropertyGroup>
+
+</Project>
