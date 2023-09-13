@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Henrique Nogueira\\Documents\\Calculadora\\Calculadora-main\\Calculadora\\Calculadora.csproj": {}
+    "C:\\Users\\Henrique Nogueira\\Documents\\Calculadora\\Calculadora\\Calculadora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henrique Nogueira\\Documents\\Calculadora\\Calculadora-main\\Calculadora\\Calculadora.csproj": {
+    "C:\\Users\\Henrique Nogueira\\Documents\\Calculadora\\Calculadora\\Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henrique Nogueira\\Documents\\Calculadora\\Calculadora-main\\Calculadora\\Calculadora.csproj",
+        "projectUniqueName": "C:\\Users\\Henrique Nogueira\\Documents\\Calculadora\\Calculadora\\Calculadora.csproj",
         "projectName": "Calculadora",
-        "projectPath": "C:\\Users\\Henrique Nogueira\\Documents\\Calculadora\\Calculadora-main\\Calculadora\\Calculadora.csproj",
+        "projectPath": "C:\\Users\\Henrique Nogueira\\Documents\\Calculadora\\Calculadora\\Calculadora.csproj",
         "packagesPath": "C:\\Users\\Henrique Nogueira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henrique Nogueira\\Documents\\Calculadora\\Calculadora-main\\Calculadora\\obj\\",
+        "outputPath": "C:\\Users\\Henrique Nogueira\\Documents\\Calculadora\\Calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Henrique Nogueira\\AppData\\Roaming\\NuGet\\NuGet.Config",
