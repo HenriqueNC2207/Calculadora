@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
+
 
 namespace Calculadora
 {
@@ -20,7 +20,7 @@ namespace Calculadora
 
             Calculadora calculadora = new Calculadora();
 
-            //Removido o operador = da validação abaixo, que ocasionava exceção de InvalidOperationException na linha 27, pois a fila já estava vazia.
+            //Removido o operador = da validação abaixo, que ocasionava exceção InvalidOperationException na linha 27, pois a fila já estava vazia.
             while (filaOperacoes.Count > 0)
             {
                 Operacoes operacao = filaOperacoes.Peek();
@@ -40,10 +40,8 @@ namespace Calculadora
                 if(filaOperacoes.Count > 0) {
                         Console.WriteLine("Operações a serem processadas:");
                         foreach(Operacoes listaFila in filaOperacoes){
-                        Console.WriteLine("{0} {1} {2}", listaFila.valorA, listaFila.operador, listaFila.valorB);
-                    }
-                    //Após cada impressão das operações seguintes, apertar Enter no terminal para prosseguir
-                    Console.ReadLine();
+                            Console.WriteLine("{0} {1} {2}", listaFila.valorA, listaFila.operador, listaFila.valorB);
+                        }
                 }
                 //Organiza e imprime pilha de resultados após a realização da fila
                 else{
