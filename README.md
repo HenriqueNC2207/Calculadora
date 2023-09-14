@@ -1,7 +1,7 @@
 # Calculadora
 Case para Engenharia de Software JR
 
-Aplicação está com o .net 7.0, favor alterar de acordo com a versão do setup usado.
+Aplicação está com o .net 7.0, favor alterar Calculadora.csproj de acordo com a versão do setup usado.
 
 Itens para corrigir e implemetar no codigo:
   1. Aplicação só está processando o primeiro item da fila infinitamente.
