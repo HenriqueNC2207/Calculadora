@@ -51,4 +51,4 @@ Itens para corrigir e implemetar no codigo:
              18 / 3 = 6
 
 
-Obs2: Aplicação também realizada em python - https://github.com/HenriqueNC2207/Calculadora.py
+Obs: Aplicação também realizada em python - https://github.com/HenriqueNC2207/Calculadora.py
