@@ -1,6 +1,8 @@
 # Calculadora
 Case para Engenharia de Software JR
 
+Aplicação está com o .net 7.0, favor alterar de acordo com a versão do setup usado.
+
 Itens para corrigir e implemetar no codigo:
   1. Aplicação só está processando o primeiro item da fila infinitamente.
      
@@ -49,4 +51,4 @@ Itens para corrigir e implemetar no codigo:
              18 / 3 = 6
 
 
-Obs: Aplicação também realizada em python - https://github.com/HenriqueNC2207/Calculadora.py
+Obs2: Aplicação também realizada em python - https://github.com/HenriqueNC2207/Calculadora.py
