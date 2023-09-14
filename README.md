@@ -1,10 +1,14 @@
 # Calculadora
 Case para Engenharia de Software JR
 
-Você precisa corrigir os seguintes problemas no codigo:
+Itens para corrigir e implemetar no codigo:
   1. Aplicação só está processando o primeiro item da fila infinitamente.
-  2. Implemente a funcionalidade de divisão.
+     
+       Aplicação não removia da fila após cada processamento, assim, apresentava processamento infinito. Adicionado código que remove operação da fila.
+  2. Implementado a funcionalidade de divisão.
   3. Aplicação não está calculando a penultima operação corretamente.
+
+       Operação estava incorreta, pois tipo definido para os campos era int, o valor 2147483647 é o valor máximo que um inteiro de 32 bits (tipo int em C#) pode armazenar
      
      	Saída esperada no console:
      
@@ -16,10 +20,33 @@ Você precisa corrigir os seguintes problemas no codigo:
      
      		18 / 3 = 6
 
-  5. Implemente uma funcionalidade para imprimir toda a lista de operaçõoes a ser processada após cada calculo realizado.
-  6. Crie uma nova pilha (Stack) para guardar o resultado de cada calculo efetuado e imprima a pilha ao final
+  4. Implemente uma funcionalidade para imprimir toda a lista de operaçõoes a ser processada após cada calculo realizado.
+
+       Função implementada
+     
+       Saída:
+     
+            2 + 3 = 5
+     
+            Operações a serem processadas:
+            14 - 8
+            5 * 6
+            2147483647 + 2
+            18 / 3
+     
+  5. Crie uma nova pilha (Stack) para guardar o resultado de cada calculo efetuado e imprima a pilha ao final
+
+        Função implementada
+     
+       Saída:
+     
+           Resultados dos cálculos:
+     
+             2 + 3 = 5
+             14 - 8 = 6
+             5 * 6 = 30
+             2147483647 + 2 = 2147483649
+             18 / 3 = 6
 
 
-Não existe resposta certa ou errada, o objetivo do case é avaliar a linha de raciocínio de cada candidato.
-Você é livre para fazer na linguagem de sua preferência, desde que aplique as mesmas funcionalidades e tarefas deste case.
-Dica: Utilize Visual Code ou Visual Studio Community para realizar as tarefas.
+Obs: Aplicação também realizada em python - https://github.com/HenriqueNC2207/Calculadora.py
