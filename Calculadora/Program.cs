@@ -31,7 +31,10 @@ namespace Calculadora
 
                 //Armazena string da expressão e seu resultado
                 string resultado = string.Format("{0} {1} {2} = {3}", operacao.valorA, operacao.operador, operacao.valorB, operacao.resultado);
+                
+                Console.WriteLine();
                 Console.WriteLine(resultado);
+                Console.WriteLine();
 
                 //Adiciona ao stack o resultado da operação processada
                 stack.Push(resultado);
